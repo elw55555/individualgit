@@ -22,3 +22,5 @@ Make sure that notes are understandable and record all definitions and questions
 
 Take notes in Herec for Tech Talks and ask questions in tutorial if confused.
 Make sure that notes are understandable and record all definitions and questions, if any.
+
+```
