@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## Welcome to Eric Wang's Individual Page
 
 You can use the [editor on GitHub](https://github.com/elw55555/individualgit/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Replit Link to Data Structures Work: [Link to Replit:](https://replit.com/@elw55555/pagesjava-2#src/Menu.java)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+**Notes and Plans for Tech Talks:**
 
-### Jekyll Themes
+Take notes in personal google doc for Tech Talks and ask questions in tutorial if confused.
+Make sure that notes are understandable and record all definitions and questions, if any.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/elw55555/individualgit/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```
+```markdown
 
-### Support or Contact
+**Notes and Plans for AP Exam review:**
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Take notes in Herec for Tech Talks and ask questions in tutorial if confused.
+Make sure that notes are understandable and record all definitions and questions, if any.
