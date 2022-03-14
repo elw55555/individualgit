@@ -30,3 +30,12 @@ Make sure that notes are understandable and record all definitions and questions
 Week 0: I need to understand arrays more; I don't understand them at a high-enough level and I need to spend more time with it. Also, I need to practice creating a whole class with instances like our test last trimester.
 
 ```
+```
+
+**Code Snippets**
+
+Hashmap Menu: [here](https://github.com/elw55555/individualgit/blob/gh-pages/hashmapMenu)
+Matrix: [here](https://github.com/elw55555/individualgit/blob/gh-pages/matrix)
+Swap Numbers: [here](https://github.com/elw55555/individualgit/blob/gh-pages/swapNumbers)
+
+```
