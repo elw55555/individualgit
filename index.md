@@ -4,9 +4,9 @@ You can use the [editor on GitHub](https://github.com/elw55555/individualgit/edi
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-## Replit Link to Data Structures Work: [Link to Replit:](https://replit.com/@elw55555/pagesjava-2#src/Menu.java)
-## Github Link: [Team:](https://github.com/gracele246/theshop)
-## Github Link: [Personal:](https://github.com/elw55555/individualgit)
+## Replit Link to Data Structures Work: [Link to Replit](https://replit.com/@elw55555/pagesjava-2#src/Menu.java)
+## Github Link: [Team](https://github.com/gracele246/theshop)
+## Github Link: [Personal](https://github.com/elw55555/individualgit)
 
 ```
 
