@@ -17,6 +17,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Take notes in personal google doc for Tech Talks and ask questions in tutorial if confused.
 Make sure that notes are understandable and record all definitions and questions, if any.
 
+Week 0: We learned the difference between several different data structures and the difference between imperative and object-oriented paradigms. There were different paths to each data structure and it greatly varies between different types, like primitive or non-primitive types. Goal: spend more time to understand and familiarize with each type of data structure.
+
 ```
 ```
 
@@ -24,5 +26,7 @@ Make sure that notes are understandable and record all definitions and questions
 
 Take notes in Herec for Tech Talks and ask questions in tutorial if confused.
 Make sure that notes are understandable and record all definitions and questions, if any.
+
+Week 0: I need to understand arrays more; I don't understand them at a high-enough level and I need to spend more time with it. Also, I need to practice creating a whole class with instances like our test last trimester.
 
 ```
