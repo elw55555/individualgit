@@ -1,5 +1,7 @@
 ## Welcome to Eric Wang's Individual Page
 
+{% include navigation.html %}
+
 Week 0 Review Ticket: [Here](https://github.com/gracele246/theshop/issues/1)
 
 You can use the [editor on GitHub](https://github.com/elw55555/individualgit/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
