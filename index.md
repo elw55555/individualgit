@@ -1,6 +1,6 @@
 ## Welcome to Eric Wang's Individual Page
 
-{% include navigation.html %}
+{% include nav.html %}
 
 Week 0 Review Ticket: [Here](https://github.com/gracele246/theshop/issues/1)
 
