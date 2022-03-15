@@ -19,6 +19,8 @@ Make sure that notes are understandable and record all definitions and questions
 
 Week 0: We learned the difference between several different data structures and the difference between imperative and object-oriented paradigms. There were different paths to each data structure and it greatly varies between different types, like primitive or non-primitive types. Goal: spend more time to understand and familiarize with each type of data structure.
 
+Week 1: Linked Lists. The objective is to build your own, not the ones in java like arrays. Java Generic T allows us to pass any data type into a data structure. We've already done this through an arraylist. For all of these, we must define what is iterable. Queues only need to know the tail. For example, seven slimy snakes. Seven is the head, snakes is the tail. Anything in between is not too important. However, a stack doesn't necessarily need to be iterable because you only need to know the head.
+
 ```
 ```
 
