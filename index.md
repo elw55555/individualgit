@@ -14,5 +14,3 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ## Replit Link to Week 1: Data Structures Work: [Link to Replit](https://replit.com/@elw55555/ericchallenge1)
 ## Github Link: [Team](https://github.com/gracele246/theshop)
 ## Github Link: [Personal](https://github.com/elw55555/individualgit)
-
-```
