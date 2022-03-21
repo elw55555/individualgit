@@ -1,4 +1,8 @@
-## Welcome to Eric Wang's Individual Page
+## Welcome to Eric's Individual Page
+
+Welcome to Eric's Individual Page. On the menu you can find my Notes in the Tech Section. The Team Assignment is my teams Github and the Repl Section has my Repl linked.
+
+{% include navigation.html %}
 
 Week 0 Review Ticket: [Here](https://github.com/gracele246/theshop/issues/1)
 
