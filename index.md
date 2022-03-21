@@ -13,7 +13,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ```
 
-**Notes and Plans for Tech Talks Here**
+**Notes and Plans for all Tech Talks and Class Assignments Here**
 
 Take notes in personal google doc for Tech Talks and ask questions in tutorial if confused.
 Make sure that notes are understandable and record all definitions and questions, if any.
@@ -45,7 +45,7 @@ A queue can be reversed by using a stack:
 ```
 ```
 
-**Notes and Plans for AP Exam Review Here**
+**Personal Notes and Plans for AP Exam Review Here**
 
 Take notes in Here for Tech Talks and ask questions in tutorial if confused.
 Make sure that notes are understandable and record all definitions and questions, if any.
