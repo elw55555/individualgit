@@ -85,7 +85,8 @@ private final Map<String, Integer> OPERATORS = new HashMap<>();
 1. Remove all the elements from the queue and push them to a stack.
 2. Pop-out all the elements from the stack and push them back to the queue.
 3. The queue is revered, print the elements of the queue.
-```
+
+```java
 public class LinkedList
 {
     private Object opaqueObject;  // opaqueObject means specific type is not known, as LinkedList are not specific to a data type
@@ -107,6 +108,50 @@ public class LinkedList
 ```
 
 ## TT2
+
+**When using a calculator, it is difficult to calculate with precedence rules. The reverse polish notation is used because the format that the equation is in is easier for machines to interpret rather than the notation we are used to, infix notation, where the operator is in between the numbers.**
+
+Example:
+
+Reverse Polish Notation is a way of expressing arithmetic expressions that avoids the use of brackets to define priorities for evaluation of operators. In ordinary notation, one might write
+
+(3 + 5) * (7 – 2)
+
+and the brackets tell us that we have to add 3 to 5, then subtract 2 from 7, and multiply the two results together. In RPN, the numbers and operators are listed one after another, and an operator always acts on the most recent numbers in the list. The numbers can be thought of as forming a stack, like a pile of plates. The most recent number goes on the top of the stack. An operator takes the appropriate number of arguments from the top of the stack and replaces them by the result of the operation.
+
+In this notation the above expression would be
+
+3 5 + 7 2 – *
+
+Reading from left to right, this is interpreted as follows:
+
+1. Push 3 onto the stack.
+2. Push 5 onto the stack. Reading from the top, the stack now contains (5, 3).
+3. Apply the + operation: take the top two numbers off the stack, add them together, and put the result back on the stack. The stack now contains just the number 8.
+4. Push 7 onto the stack.
+5. Push 2 onto the stack. It now contains (2, 7, 8).
+6. Apply the – operation: take the top two numbers off the stack, subtract the top one from the one below, and put the result back on the stack. The stack now contains (5, 8).
+7. Apply the * operation: take the top two numbers off the stack, multiply them together, and put the result back on the stack. The stack now contains just the number 40, which is the mathematically correct answer.
+8. How we can use a public static void main method to print the answer, 40, out.
+
+**Below is an example class to implement such a calculator:**
+
+```java
+// Create a 1 argument constructor expecting a mathematical expression
+    public Calculator(String expression) {
+        // original input
+        this.expression = expression;
+
+        // parse expression into terms
+        this.termTokenizer();
+
+        // place terms into reverse polish notation
+        this.tokensToReversePolishNotation();
+
+        // calculate reverse polish notation
+        this.rpnToResult();
+    }
+```
 
 ## TT3
 
