@@ -1,6 +1,6 @@
 ## Welcome to Eric's Individual Page
 
-Welcome to Eric's Individual Page. On the menu you can find my Notes in the Tech Section. The Team Assignment is my teams Github and the Repl Section has my Repl linked.
+Welcome to Eric's Individual Page. On the menu you can find my Notes in the Tech Section. The Team Assignment is my team's (p2-the-shop) Github and the Repl Section has my Repl linked.
 
 {% include navigation.html %}
 
