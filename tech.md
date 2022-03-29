@@ -134,7 +134,9 @@ Reading from left to right, this is interpreted as follows:
 7. Apply the * operation: take the top two numbers off the stack, multiply them together, and put the result back on the stack. The stack now contains just the number 40, which is the mathematically correct answer.
 8. How we can use a public static void main method to print the answer, 40, out.
 
-**Below is an example formatted class template to implement such a calculator:**
+**Below are some code snippets where the procedure is impelmented**
+
+**Below is an example formatted constructor to implement such a calculator:**
 
 ```java
 // Create a 1 argument constructor expecting a mathematical expression
@@ -152,6 +154,128 @@ Reading from left to right, this is interpreted as follows:
         this.rpnToResult();
     }
 ```
+**Here is where precedence is established after operators and seperators are separated**
+
+```java
+    // Test if token is an operator
+    private boolean isOperator(String token) {
+        // find the token in the hash map
+        return OPERATORS.containsKey(token);
+    }
+
+    // Test if token is an seperator
+    private boolean isSeperator(String token) {
+        // find the token in the hash map
+        return SEPARATORS.containsKey(token);
+    }
+
+    // Compare precedence of operators.
+    private Boolean isPrecedent(String token1, String token2) {
+        // token 1 is precedent if it is greater than token 2
+        return (OPERATORS.get(token1) - OPERATORS.get(token2) >= 0) ;
+    }
+```
+Now the expression is converted into an Arraylist and implements each operator and separator in one-by-one.
+
+```java
+    // Term Tokenizer takes original expression and converts it to ArrayList of tokens
+    private void termTokenizer() {
+        // contains final list of tokens
+        this.tokens = new ArrayList<>();
+
+        int start = 0;  // term split starting index
+        StringBuilder multiCharTerm = new StringBuilder();    // term holder
+        for (int i = 0; i < this.expression.length(); i++) {
+            Character c = this.expression.charAt(i);
+            if ( isOperator(c.toString() ) || isSeperator(c.toString())  ) {
+                // 1st check for working term and add if it exists
+                if (multiCharTerm.length() > 0) {
+                    tokens.add(this.expression.substring(start, i));
+                }
+                // Add operator or parenthesis term to list
+                if (c != ' ') {
+                    tokens.add(c.toString());
+                }
+                // Get ready for next term
+                start = i + 1;
+                multiCharTerm = new StringBuilder();
+            } else {
+                // multi character terms: numbers, functions, perhaps non-supported elements
+                // Add next character to working term
+                multiCharTerm.append(c);
+            }
+
+        }
+        // Add last term
+        if (multiCharTerm.length() > 0) {
+            tokens.add(this.expression.substring(start));
+        }
+    }
+```
+**A tester method is built to print the final answer.
+
+```java
+    // Tester method
+    public static void main(String[] args) {
+        // Random set of test cases
+        Calculator simpleMath = new Calculator("100 + 200  * 3");
+        System.out.println("Simple Math\n" + simpleMath);
+
+        System.out.println();
+
+        Calculator parenthesisMath = new Calculator("(100 + 200)  * 3");
+        System.out.println("Parenthesis Math\n" + parenthesisMath);
+
+        System.out.println();
+
+        Calculator fractionMath = new Calculator("100.2 - 99.3");
+        System.out.println("Fraction Math\n" + fractionMath);
+
+        System.out.println();
+
+        Calculator moduloMath = new Calculator("300 % 200");
+        System.out.println("Modulo Math\n" + moduloMath);
+
+        System.out.println();
+
+        Calculator divisionMath = new Calculator("300/200");
+        System.out.println("Division Math\n" + divisionMath);
+
+        System.out.println();
+
+        Calculator multiplicationMath = new Calculator("300 * 200");
+        System.out.println("Multiplication Math\n" + multiplicationMath);
+
+        System.out.println();
+
+        Calculator allMath = new Calculator("200 % 300 + 5 + 300 / 200 + 1 * 100");
+        System.out.println("All Math\n" + allMath);
+
+        System.out.println();
+
+        Calculator allMath2 = new Calculator("200 % (300 + 5 + 300) / 200 + 1 * 100");
+        System.out.println("All Math2\n" + allMath2);
+
+        System.out.println();
+
+        Calculator allMath3 = new Calculator("200%(300+5+300)/200+1*100");
+        System.out.println("All Math3\n" + allMath3);
+
+        System.out.println();
+
+        Calculator expMath = new Calculator("8 ^ 4");
+        System.out.println("Exponential Math\n" + expMath);
+        
+        System.out.println();
+
+        Calculator sqrtMath = new Calculator("sqrt9");
+        System.out.println("Square Root Math\n" + sqrtMath);
+
+        System.out.println();
+    }
+}
+```
+
 
 ## TT3
 
