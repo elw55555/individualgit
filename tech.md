@@ -134,7 +134,7 @@ Reading from left to right, this is interpreted as follows:
 7. Apply the * operation: take the top two numbers off the stack, multiply them together, and put the result back on the stack. The stack now contains just the number 40, which is the mathematically correct answer.
 8. How we can use a public static void main method to print the answer, 40, out.
 
-**Below is an example class to implement such a calculator:**
+**Below is an example formatted class template to implement such a calculator:**
 
 ```java
 // Create a 1 argument constructor expecting a mathematical expression
