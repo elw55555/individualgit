@@ -84,7 +84,7 @@ class Driver {
 
         // Run menu forever, exit condition contained in loop
         while (true) {
-            System.out.println("      Ak's Data Structures Labs     ");
+            System.out.println("      Eric's Data Structures Labs     ");
             
             // This command allows us to actually display those rows                    that we created up above
             menu.print();
