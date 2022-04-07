@@ -107,7 +107,8 @@ class Driver {
                 new MenuRow("Exit", () -> main(null)),
                 new MenuRow("Swap", () -> IntByReference.main(null)),  // lambda style, () -> to point to Class.Method
                 new MenuRow("Matrix", () -> Matrix.main(null)),
-                new MenuRow("Number", () -> Number.main(null))
+                new MenuRow("Number", () -> Number.main(null)),
+                new MenuRow("TicTacToe", () -> TicTacToe.main(null))
         };
 
         // Menu construction
