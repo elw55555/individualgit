@@ -1,17 +1,30 @@
 package src;
 
-// Importing our utilities
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-// Starting our menu class
+/**
+ * Menu: custom implementation
+ * @author     John Mortensen
+ *
+ * Uses String to contain Title for an Option
+ * Uses Runnable to store Class-Method to be run when Title is selected
+ */
+
+// The Menu Class has a HashMap of Menu Rows
 public class Menu {
-    
-    // Create the hashmap to set up all the possible rows
+    // Format
+    // Key {0, 1, 2, ...} created based on order of input menu
+    // Value {MenuRow0, MenuRow1, MenuRow2,...} each corresponds to key
+    // MenuRow  {<Exit,Noop>, Option1, Option2, ...}
     Map<Integer, MenuRow> menu = new HashMap<>();
 
-    // Create a new public class called menu to set up the number of rows
+    /**
+     *  Constructor for Menu,
+     *
+     * @param  rows,  is the row data for menu.
+     */
     public Menu(MenuRow[] rows) {
         int i = 0;
         for (MenuRow row : rows) {
@@ -20,37 +33,54 @@ public class Menu {
         }
     }
 
-    // Get a value from our function up above to check what menu item it        is
+    /**
+     *  Get Row from Menu,
+     *
+     * @param  i,  HashMap key (k)
+     *
+     * @return  MenuRow, the selected menu
+     */
     public MenuRow get(int i) {
         return menu.get(i);
     }
 
-    // Iterate through the hashmap and print the items in the menu
+    /**
+     *  Iterate through and print rows in HashMap
+     */
     public void print() {
         for (Map.Entry<Integer, MenuRow> pair : menu.entrySet()) {
-            System.out.println(pair.getKey() + ": " + pair.getValue().getTitle());
+            System.out.println(pair.getKey() + " ==> " + pair.getValue().getTitle());
         }
     }
 
-    // Starts the new driver class
+    /**
+     *  To test run Driver
+     */
     public static void main(String[] args) {
         Driver.main(args);
     }
 
 }
 
-// Now we start what goes in the menu function
+// The MenuRow Class has title and action for individual line item in menu
 class MenuRow {
-    String title;       
-    Runnable action;
+    String title;       // menu item title
+    Runnable action;    // menu item action, using Runnable
 
-    // Setting up a constructor for the rows and looking for the menu
+    /**
+     *  Constructor for MenuRow,
+     *
+     * @param  title,  is the description of the menu item
+     * @param  action, is the run-able action for the menu item
+     */
     public MenuRow(String title, Runnable action) {
         this.title = title;
         this.action = action;
     }
 
-    // Start to set up our getters for the title and the actions using          what we defined up above
+    /**
+     *  Getters
+     */
     public String getTitle() {
         return this.title;
     }
@@ -58,35 +88,35 @@ class MenuRow {
         return this.action;
     }
 
-    // Start to use the runnable
+    /**
+     *  Runs the action using Runnable (.run)
+     */
     public void run() {
         action.run();
     }
 }
 
-// Now we start the real initalization and start the class running
+// The Main Class illustrates initializing and using Menu with Runnable action
 class Driver {
-
-  // Getting all the rows ready and displaying the thing that will shown      up on the console
+    /**
+     *  Menu Control Example
+     */
     public static void main(String[] args) {
-        
-        // Now we initialize the rows
+        // Row initialize
         MenuRow[] rows = new MenuRow[]{
-                new MenuRow("Leave the Program!🚪", () -> main(null)),
-                new MenuRow("Swapper Lab!🔀", () -> IntByReference.main(null)),  
-                new MenuRow("Want Matrices?🤓", () -> Matrix.main(null)),
-                new MenuRow("Waiting in the Queue.🙄", () -> QueueTester.main(null)),
-                new MenuRow("Calculating. Now.🤖", () -> Calculator.main(null))
+                new MenuRow("Exit", () -> main(null)),
+                new MenuRow("Swap", () -> IntByReference.main(null)),  // lambda style, () -> to point to Class.Method
+                new MenuRow("Matrix", () -> Matrix.main(null)),
+                new MenuRow("Number", () -> Number.main(null))
         };
 
-        // Starting to build the menu
+        // Menu construction
         Menu menu = new Menu(rows);
 
         // Run menu forever, exit condition contained in loop
         while (true) {
-            System.out.println("      Eric's Data Structures Labs     ");
-            
-            // This command allows us to actually display those rows                    that we created up above
+            System.out.println("Hacks Menu:");
+            // print rows
             menu.print();
 
             // Scan for input
