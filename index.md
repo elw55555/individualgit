@@ -27,7 +27,7 @@ Review mistakes using the [provided scoring guideliens](https://secure-media.col
 
 Friday: Continue with FRQ review if not finished or not understood. Go home and find which units to study. Devise a study plan to study what I don't know. Use AP exam live reviews on youtube provided by [CB](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd) as well as [Ajay Gandecha's youtube channel](https://www.youtube.com/watch?v=JYLJbVECJxs&list=PLfpeXtDSa8rUl8S9NtbPKlg0ikc-rw-LC) that goes through each unit very well. Determine video study plan.
 
-----------
+-----------
 
 You can use the [editor on GitHub](https://github.com/elw55555/individualgit/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
