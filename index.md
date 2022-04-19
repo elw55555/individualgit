@@ -6,6 +6,8 @@ Welcome to Eric's Individual Page. On the menu you can find my Notes in the Tech
 
 ## Study Plan:
 
+### Week 1: 
+
 Monday: Devise study plan and do general review for Tuesday's MCQ. The purpose of the MC is to gauge where my weaknesses are at.
 
 Tuesday: Take MCQ at school and analyze performance. Update: Most missed unit skills:
@@ -23,11 +25,20 @@ Thursday: Take FRQ at school and take home to analyze performance. Update: most 
 - here
 - here
 
-Review mistakes using the [provided scoring guideliens](https://secure-media.collegeboard.org/apc/1999_cs_q_a.pdf)
+Review mistakes using the [1999 official exam provided scoring guidelines](https://secure-media.collegeboard.org/apc/1999_cs_q_a.pdf)
 
 Friday: Continue with FRQ review if not finished or not understood. Go home and find which units to study. Devise a study plan to study what I don't know. Use AP exam live reviews on youtube provided by [CB](https://www.youtube.com/watch?v=-NXby4ahlnU&list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd) as well as [Ajay Gandecha's youtube channel](https://www.youtube.com/watch?v=JYLJbVECJxs&list=PLfpeXtDSa8rUl8S9NtbPKlg0ikc-rw-LC) that goes through each unit very well. Determine video study plan.
 
------------
+### Week 2:
+
+Under construction based on thursday FRQ performance. Will compose of review videos with notes and practice tests.
+
+- [Official Past AP Exams from 1999-2021:](https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam/past-exam-questions)
+- [AP CSA Complete Unit Review Video Playlist from Collegeboard:](https://www.youtube.com/playlist?list=PLoGgviqq4845xKOY11PnkE7aqJC7-bYrd)
+- [Ajay Gandecha Complete AP CSA Review Course Playlist:](https://www.youtube.com/playlist?list=PLfpeXtDSa8rUl8S9NtbPKlg0ikc-rw-LC)
+- [Popfizz Complete Exam Format Review Video:](https://www.youtube.com/watch?v=_mClihsGtjY)
+
+----------
 
 You can use the [editor on GitHub](https://github.com/elw55555/individualgit/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
