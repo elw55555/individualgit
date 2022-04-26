@@ -109,6 +109,7 @@ class Driver {
                 new MenuRow("Matrix", () -> Matrix.main(null)),
                 new MenuRow("Number", () -> Number.main(null)),
                 new MenuRow("TicTacToe", () -> TicTacToe.main(null))
+                new MenuRow("Calculator", () -> Calculator.main(null))
         };
 
         // Menu construction
