@@ -2,7 +2,7 @@
 
 ## Individual Study Guide
 
-[https://docs.google.com/document/d/1uJv28RR2SbR8Pj2oeZ_FSfrlTthZNJTDwAfBQO7iUNs/edit](https://docs.google.com/document/d/1uJv28RR2SbR8Pj2oeZ_FSfrlTthZNJTDwAfBQO7iUNs/edit)
+[https://docs.google.com/document/d/1uJv28RR2SbR8Pj2oeZ_FSfrlTthZNJTDwAfBQO7iUNs/edit?usp=sharing](https://docs.google.com/document/d/1uJv28RR2SbR8Pj2oeZ_FSfrlTthZNJTDwAfBQO7iUNs/edit?usp=sharing)
 
 ### 2015 Practice MCQ
 
