@@ -2,14 +2,29 @@
 
 ## Individual Study Guide
 
-[https://docs.google.com/document/d/1uJv28RR2SbR8Pj2oeZ_FSfrlTthZNJTDwAfBQO7iUNs/edit?usp=sharing](https://docs.google.com/document/d/1uJv28RR2SbR8Pj2oeZ_FSfrlTthZNJTDwAfBQO7iUNs/edit?usp=sharing)
+[https://github.com/elw55555/individualgit/blob/main/AP%20CSA%20Study%20Guide.pdf](https://github.com/elw55555/individualgit/blob/main/AP%20CSA%20Study%20Guide.pdf)
 
 ### 2015 Practice MCQ
 
-[https://docs.google.com/document/d/1voselBir67qoWH7tnr5R46Ibj5dBsFR6mp58mN10W8I/edit?usp=sharing](https://docs.google.com/document/d/1voselBir67qoWH7tnr5R46Ibj5dBsFR6mp58mN10W8I/edit?usp=sharing)
+[https://github.com/elw55555/individualgit/blob/main/AP%20CSA%202015%20Practice%20MCQ.pdf](https://github.com/elw55555/individualgit/blob/main/AP%20CSA%202015%20Practice%20MCQ.pdf)
 
 ### 2014 Practice FRQ
 
-[https://docs.google.com/document/d/1jxKbmSdUBTTDBUmfjCEal1qVj0FEPBKWorDzG7xVlG8/edit?usp=sharing](https://docs.google.com/document/d/1jxKbmSdUBTTDBUmfjCEal1qVj0FEPBKWorDzG7xVlG8/edit?usp=sharing)
+[https://github.com/elw55555/individualgit/blob/main/AP%20CSA%202014%20Practice%20FRQ.pdf](https://github.com/elw55555/individualgit/blob/main/AP%20CSA%202014%20Practice%20FRQ.pdf)
 
-Copied into replit: [https://replit.com/@elw55555/2015frq#Numbergroup.java](https://replit.com/@elw55555/2015frq#Numbergroup.java)
+Copied into replit(not running yet): [https://replit.com/@elw55555/2015frq#Numbergroup.java](https://replit.com/@elw55555/2015frq#Numbergroup.java)
+
+### 2020 Practice MCQ
+
+[https://github.com/elw55555/individualgit/blob/main/2020%20AP%20CSA%20MC%20Corrections.pdf](https://github.com/elw55555/individualgit/blob/main/2020%20AP%20CSA%20MC%20Corrections.pdf)
+
+### 2020 Practice FRQ
+
+[https://github.com/elw55555/individualgit/blob/main/2020%20AP%20CSA%20FRQ.pdf](https://github.com/elw55555/individualgit/blob/main/2020%20AP%20CSA%20FRQ.pdf)
+
+Copied into replit(running):
+
+[FRQ 1 running on replit](https://replit.com/@elw55555/AP-CSA-2020-FRQ-Q1#Main.java)
+
+[FRQ 3 running on replit](https://replit.com/@elw55555/AP-CSA-2020-FRQ-Q3#ProductReview.java)
+
